@@ -7,7 +7,7 @@ import { ImCross } from "react-icons/im";
 
 
 
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { Fragment } from 'react'
 
 function AdminDash() {
 
@@ -23,7 +23,7 @@ export default AdminDash;
 
 export const DashNav = () => {
     const navigate = useNavigate();
-    const [myEmployeeData, setMyEmployeeData] = useState();
+    // const [myEmployeeData, setMyEmployeeData] = useState();
     // useEffect(() => {
     //     const employeeData = localStorage.getItem('employeeData')
     //     if (!employeeData) {
@@ -51,12 +51,12 @@ export const DashNav = () => {
                                     <div className="Avater ">
                                         <NavLink className='text-decoration-none text-light' to='/EmployeeDash/dash'>
                                             <figure><img src={avatar} className='w-100' alt='foto avatar' /></figure>
-                                            {myEmployeeData?.username}
+                                            {/* {myEmployeeData?.username} */}
                                         </NavLink>
                                         <ul>
                                             <li>
                                                 <figure><img src={avatar} className='w-100' alt='foto avatar' /></figure>
-                                                <h4>{myEmployeeData?.username}<br /> <span>{myEmployeeData?.role}</span></h4>
+                                                {/* <h4>{myEmployeeData?.username}<br /> <span>{myEmployeeData?.role}</span></h4> */}
                                             </li>
                                             <li
                                                 onClick={() => {
@@ -83,12 +83,12 @@ export const DashNav = () => {
                                 <div className="Avater">
                                     <NavLink className='text-decoration-none text-light' to={"/EmployeeDash/dash"}>
                                         <figure><img src={avatar} className='w-100' alt='foto avatar' /></figure>
-                                        {myEmployeeData?.username}
+                                        {/* {myEmployeeData?.username} */}
                                     </NavLink>
                                     <ul>
                                         <li>
                                             <figure><img src={avatar} className='w-100' alt='foto avatar' /></figure>
-                                            <h4>   {myEmployeeData?.username}<span><br />   {myEmployeeData?.role}</span></h4>
+                                            {/* <h4>   {myEmployeeData?.username}<span><br />   {myEmployeeData?.role}</span></h4> */}
                                         </li>
                                         <li
                                             onClick={() => {
@@ -114,12 +114,12 @@ export const DashNav = () => {
 
 export const SideBar = () => {
     const navigate = useNavigate();
-    const [myEmployeeData, setMyEmployeeData] = useState({
-        username: 'Admin',
-        role: 'Admin',
-        id: '3'
+    // const [myEmployeeData, setMyEmployeeData] = useState({
+    //     username: 'Admin',
+    //     role: 'Admin',
+    //     id: '3'
         
-    });
+    // });
     // useEffect(() => {
     //     const employeeData = localStorage.getItem('employeeData')
     //     if (!employeeData) {

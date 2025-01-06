@@ -1,11 +1,12 @@
-import axios from 'axios';
-import React, { Fragment, useEffect } from 'react';
+// import axios from 'axios';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import BASE_URL_9091 from '../../user/AllRounder/HRMSUrl';
+// import BASE_URL_9091 from '../../user/AllRounder/HRMSUrl';
 
 const EmployeeAttendance = () => {
-    const empId = localStorage.getItem("empId");
-    const [attendance, setAttendance] = React.useState([]);
+    // const empId = localStorage.getItem("empId");
+    // const [attendance, setAttendance] = React.useState([]);
+    const attendance="";
     // useEffect(() => {
     //     axios.get(`${BASE_URL_9091}/api/attendance/records?employeeId=${empId}`).then(res => { console.log(res.data); setAttendance(res.data) });
     // }, [empId])

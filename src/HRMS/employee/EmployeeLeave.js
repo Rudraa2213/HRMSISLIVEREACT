@@ -1,11 +1,13 @@
 import axios from 'axios';
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment,  useState } from 'react';
 import BASE_URL_9091 from '../../user/AllRounder/HRMSUrl';
 
 const EmployeeLeave = () => {
 
-    const [getAllLeave, setGetAllLeave] = useState([]);
-    const [getRequest, setRequest] = useState([]);
+    // const [getAllLeave, setGetAllLeave] = useState([]);
+    // const [getRequest, setRequest] = useState([]);
+    const getAllLeave="";
+    const getRequest="";
     const empId = localStorage.getItem("empId");
     // useEffect(() => {
     //     axios.get(`${BASE_URL_9091}/api/leave_type`).then((res) => {

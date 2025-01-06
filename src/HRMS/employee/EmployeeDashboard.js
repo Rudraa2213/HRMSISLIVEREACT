@@ -1,28 +1,28 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import moment from 'moment';
-import BASE_URL_9091 from '../../user/AllRounder/HRMSUrl';
-import axios from 'axios';
-import { toast, ToastContainer } from 'react-toastify';
+// import BASE_URL_9091 from '../../user/AllRounder/HRMSUrl';
+// import axios from 'axios';
+import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import { RxCross1 } from "react-icons/rx";
 
 const EmployeeDashboard = () => {
-    const [location, setLocation] = useState({ latitude: null, longitude: null });
-    const [isPunchInDisabled, setIsPunchInDisabled] = useState(false);
-    const [isPunchedIn, setIsPunchedIn] = useState(false);
+    // const [location, setLocation] = useState({ latitude: null, longitude: null });
+    // const [isPunchInDisabled, setIsPunchInDisabled] = useState(false);
+    // const [isPunchedIn, setIsPunchedIn] = useState(false);
     const [date, setDate] = useState(new Date());
     const [showRemarkModal, setShowRemarkModal] = useState(false);
     const [myRemark, setMyRemark] = useState("");
-    const [pendingPunchIn, setPendingPunchIn] = useState(null);
+    // const [pendingPunchIn, setPendingPunchIn] = useState(null);
 
     useEffect(() => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
                 (position) => {
-                    setLocation({
-                        latitude: position.coords.latitude,
-                        longitude: position.coords.longitude,
-                    });
+                    // setLocation({
+                    //     latitude: position.coords.latitude,
+                    //     longitude: position.coords.longitude,
+                    // });
                 },
                 (error) => {
                     console.log(error);
@@ -177,11 +177,11 @@ const EmployeeDashboard = () => {
                                 <h4 className="Title">Dashboard</h4>
                             </div>
                             <div className='button_sub_div'>
-                                {!isPunchedIn ? (
+                                {!true ? (
                                     <button
                                         className='home_login_btn punch_in_button'
                                         // onClick={handlePunchIn}
-                                        disabled={isPunchInDisabled}
+                                        // disabled={isPunchInDisabled}
                                     >
                                         Punch In
                                     </button>
@@ -289,7 +289,7 @@ const EmployeeDashboard = () => {
                                     <RxCross1 className='cross_icon'
                                         onClick={() => {
                                             setShowRemarkModal(false);
-                                            setPendingPunchIn(false);
+                                            // setPendingPunchIn(false);
                                             setMyRemark("");
                                         }}
                                     />
