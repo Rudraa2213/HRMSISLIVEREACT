@@ -1,0 +1,38 @@
+.Footerdiv1{
+    background-color: #5e051a;
+    /* background-color: rgba(241, 77, 77, 0.9); */
+}
+
+.Ab{
+    text-decoration: none;
+    color: #f7f28e !important;
+    font-size: 13px;
+}
+.Ab:hover{
+    color: #eded11;
+}
+
+.Semail {
+    height: 30px;
+    width: 230px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.mail {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    width: 180px;
+}
+.clogo:hover{
+    background-color: #bab93b;
+}
+
+@media only screen and (max-width: 600px) {
+    .Footerdiv1{
+        max-height: 500px;
+        overflow: scroll;
+    }
+  }

@@ -1,0 +1,32 @@
+.kyccontainer {
+    background-color: rgb(228, 232, 212);
+    max-width: 55rem;
+    border-radius: 5px;
+}
+
+.kyctext,
+.marital {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kyclabel {
+    font-weight: 600;
+    color: rgb(61, 60, 60);
+}
+
+.kyccontainer-fluid {
+    background: linear-gradient(to left, rgb(119, 115, 106), rgb(204, 214, 200), rgb(164, 124, 124))
+        /* background:radial-gradient(rgb(210, 188, 188) ,rgb(194, 175, 178),rgb(112, 112, 138)); */
+}
+
+#owneraddress,#addresline,#addresline2 {
+    height: 100%;
+    width: 100%;
+    border: none;
+    columns: 20;
+    padding: 10px;
+    border-radius: 5px;
+}
+

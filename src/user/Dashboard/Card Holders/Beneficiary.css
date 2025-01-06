@@ -1,0 +1,32 @@
+.bene table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(2, 48, 71);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+.bene table thead th{
+    padding: 20px 0;
+}
+
+.bene table tbody {
+    background-color: rgb(223, 211, 211) ;
+    color:  black;
+    height: 40px;
+}
+
+.transferdashboard{
+    background-image: url("https://fdaindia.in/crm/assets/templates/basic/images/elements/bg1.jpg");
+    background-position: calc(90vw-10px);
+    height: 60vh;
+}
+
+.nav-link2.active{
+    color: #a8b324 !important;
+}
+

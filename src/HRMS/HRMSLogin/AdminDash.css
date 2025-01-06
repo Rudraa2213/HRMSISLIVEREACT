@@ -1,0 +1,161 @@
+.firstcontainer {
+    width: 100%;
+    background: linear-gradient(to left, rgba(85, 70, 248, .3), rgba(91, 228, 125, .4), rgba(245, 137, 164, 0.2));
+    height: 100vh;
+}
+
+.hrmsfirstdiv {
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hrmslogin {
+    font-size: 20px !important;
+    background: linear-gradient(to left, rgba(25, 130, 200, 0.9), rgba(238, 25, 202, 0.8), rgba(245, 205, 5, 0.7));
+    background-color: transparent !important;
+    font-size: 50px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Optional: make the text bold */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.hrmsseconddiv {
+    background: url('../../assets/images/backgroundregisterss.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(16, 15, 15, 0.4);
+    overflow: hidden;
+    align-items: center;
+}
+
+.singlefirstdiv {
+    width: 100%;
+    height: auto;
+    background: url("../../assets/images/gradient.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.singleseconddiv {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+#singlethirddiv {
+    background: linear-gradient(to left, rgba(226, 231, 235, 0.2), rgba(190, 118, 166, 0.3), rgba(87, 115, 79, 0.2));
+    color: rgb(23, 247, 79);
+    font-weight: 600;
+}
+
+.singleh {
+    background: linear-gradient(to left, violet, rgb(39, 39, 242), green, rgb(238, 238, 58), rgb(246, 178, 51), red);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    width: 300px;
+    margin: auto;
+}
+
+
+/* added by priyanshu */
+.home_section {
+    background-color: #000;
+    height: 45.23vw;
+}
+
+.home_section .container-fluid {
+    height: 100%;
+}
+
+.home_section .row {
+    height: 100%;
+}
+
+
+
+.employee_col {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('../../assets//images/home/home-one.png');
+    background-size: cover;
+}
+
+.admin_col {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('../../assets//images/home/home-two.png');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_logo {
+    width: 20%;
+}
+
+.home_section h3 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.home_section p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 0vw 10vw
+}
+
+.home_login_btn {
+    background-color: #AB183D;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.home_login_btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.span_click {
+    color: #AB183D;
+    cursor: pointer;
+}
+
+.remember {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.icon {
+    color: #AB183D;
+}
+
+.hrmsfirstdiv {
+    height: 100% !important;
+}
+
+.register-form label {
+    border-bottom: 1.7px solid rgb(164 161 161 / 34%);
+}
+
+.Toastify__progress-bar-theme--light {
+    background: linear-gradient(90deg, #AB183D 0%, #AB183D 100%) !important;
+}

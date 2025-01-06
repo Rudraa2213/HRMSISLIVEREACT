@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+
+.dwtb{
+    height: 8rem;
+    background-color: #023047;
+    margin-top: 5px;
+}
+.dwtb:hover{
+  margin: 0px;
+  transition-duration: 200ms;
+}

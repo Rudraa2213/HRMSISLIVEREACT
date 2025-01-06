@@ -1,0 +1,6 @@
+.depositable thead th {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #4CAF50; /* Change this color as needed */
+    color: white;
+}

@@ -1,0 +1,57 @@
+/* src/App.css */
+.background-container {
+    background-color: #f8f9fa;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDYwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiM0ZmZmZTYiLz4KICA8Y2lyY2xlIGN4PSIzMDAiIGN5PSIzMDAiIHI9IjIwMCIgZmlsbD0iI2ZmYzgwMCIvPgogIDxwYXRoIGQ9Ik0xNTAgMzAwIGEgMTAwIDEwMCAwIDAgMSAyMDAtMCAxMDAgMTAwIDAgMCAxIC0yMDAtMCIgZmlsbD0iIzRjZmZlMCIvPgo8L3N2Zz4=');
+    background-size: cover;
+    padding: 20px;
+    min-height: 100vh;
+    animation: moveBackground 20s linear infinite alternate;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-primary-custom {
+    background-color: #ab183d;
+    border-color: #ab183d;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-primary-custom:hover {
+    transform: translateX(5px);
+    background-color: #7e102c;
+    border-color: #7e102c;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}

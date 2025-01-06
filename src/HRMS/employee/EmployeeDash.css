@@ -1,0 +1,806 @@
+.notification ul li {
+    list-style-type: none;
+}
+
+.WrapperArea {
+    padding: 20px;
+}
+
+.WrapperBox {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.TitleBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title {
+    margin: 0;
+}
+
+.TitleLink {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.CommonTabs2 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.CommonTabs2 ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.FilterArea {
+    margin-top: 20px;
+}
+
+.FilterLeft .form-group {
+    margin-bottom: 15px;
+}
+
+.FilterLeft .Button {
+    margin-right: 10px;
+}
+
+.TableList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TableList th,
+.TableList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.PaginationBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.PaginationBox ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.PaginationBox ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .TitleBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .TableList table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .PaginationBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbardash {
+    border-bottom: 2px solid black;
+    background-color: rgba(18, 57, 50, 0.815);
+}
+
+.Header .Logo {
+    width: 235px;
+    padding: 5px 0px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Header .Navigation {
+    transition: all 0.2s ease 0s;
+    text-align: right;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Header .Navigation .Avater {
+    margin: 10px 35px 0px 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.Header .Navigation .Avater a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+}
+
+.Header .Navigation .Avater a figure {
+    width: 70px;
+    border-radius: 50%;
+    margin: 0px 15px 0px 0px;
+    overflow: hidden;
+    height: 70px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.Header .Navigation .Avater ul {
+    position: absolute;
+    background-color: transparent;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0px 0px 0px;
+    right: -50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+    z-index: 99;
+    top: 100%;
+    text-align: left;
+    min-width: 250px;
+    display: block;
+    width: auto;
+}
+
+.Header .Navigation .Avater ul li {
+    margin: 0px;
+    border-bottom: 1px solid rgb(210, 211, 212);
+    list-style-type: none;
+
+}
+
+.Header .Navigation .Avater ul li:first-child {
+    background: rgb(0, 87, 183);
+    position: relative;
+    padding: 15px 10px 15px 60px;
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.Header .Navigation .Avater ul li figure {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    overflow: hidden;
+    margin: 0px;
+}
+
+.Header .Navigation .Avater ul li h4 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.Header .Navigation .Avater ul li h4 span {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.Header .Navigation .Avater ul li a {
+    color: rgb(78, 78, 78);
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out 0s;
+    text-decoration: none;
+}
+
+.Header .Navigation .Avater ul li a span {
+    margin: 0px 10px 0px 0px;
+}
+
+.Header .Navigation .Avater ul li a:hover {
+    background-image: linear-gradient(45deg, rgb(0, 87, 183), rgb(80, 150, 225));
+    color: rgb(255, 255, 255);
+}
+
+.Header .Navigation .Avater:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: perspective(600px) rotateX(0deg);
+}
+
+#bdSidebar {
+    background: linear-gradient(to top, rgba(61, 48, 61, 0.511), rgba(53, 53, 46, 0.599), rgba(11, 53, 11, 0.61), rgba(86, 109, 29, 0.79));
+}
+
+.dwtb:hover {
+    transform: translate(4px, 4px);
+    transition-duration: 250ms;
+}
+
+
+input[type="date"].form-control {
+    text-transform: uppercase !important;
+}
+
+.Button {
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0s;
+    font-weight: 700;
+    position: relative;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: none;
+    background: #a800b7;
+    display: inline-block;
+    outline: 0px !important;
+}
+
+.Button:hover {
+    background-position: 0px 80px;
+    color: rgb(255, 255, 255);
+}
+
+.Button.Cancel {
+    background: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 0px 5px;
+    padding: 10px 16px;
+}
+
+
+.WrapperArea {
+    min-height: 100vh;
+    background-color: rgb(253, 253, 253);
+}
+
+.WrapperArea .WrapperBox {
+    background: linear-gradient(to top, rgba(133, 246, 222, 0.41), rgba(187, 239, 109, 0.4), rgba(231, 99, 231, 0.3), rgba(247, 219, 166, 0.704));
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 88, 183, 0.33);
+
+}
+
+.TitleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 15px;
+}
+
+.TitleBox h4.Title {
+    margin: 0px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: rgb(0, 87, 183);
+}
+
+.TitleBox h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.TitleBox h5 strong {
+    font-weight: 800;
+}
+
+.TitleBox a.TitleLink {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgb(0, 87, 183);
+    display: inline-flex;
+    align-items: center;
+}
+
+.TitleBox a.TitleLink i {
+    margin-right: 5px;
+}
+
+.TitleBox a.TitleLink span {
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+.TitleBox a.TitleLink:hover {
+    background-color: rgb(0, 87, 183);
+}
+
+
+.TableList {
+    overflow: scroll;
+    width: 70vw;
+}
+
+.TableList table tr th {
+    background-color: rgb(220, 220, 220);
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+.TableList table tr td,
+.TableList table tr th {
+    font-size: 13px;
+    padding: 14px 20px;
+    white-space: nowrap;
+}
+
+.TableList table tr td {
+    font-weight: 600;
+    color: rgb(64, 64, 64);
+}
+
+.TableList table tr th:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.TableList table tr th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.TableList table tr:nth-child(2n) td {
+    background-color: rgb(239, 237, 237);
+}
+
+.TableList table tr:nth-child(2n) td:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.TableList table tr:nth-child(2n) td:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.TableList table tr td strong {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.TableList table tr td a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.TableList table tr td figure {
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: rgb(219, 219, 219) 0px 0px 14px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.TableList table tr td figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.TableList table tr td:last-child,
+.TableList table tr th:last-child {
+    min-width: 105px;
+}
+
+.TableList table tr td:last-child a {
+    margin: 0px 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.TableList table tr td span {
+    padding: 6px 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    min-width: 80px;
+}
+
+.TableList table tr td .Actions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.TableList table tr td .Actions a.Resend {
+    padding: 5px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: auto;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(231, 163, 61);
+}
+
+.TableList table tr td a.Green {
+    color: rgb(55, 167, 19);
+}
+
+.TableList table tr td a.Red {
+    color: rgb(226, 24, 24);
+}
+
+.TableList table tr td a.Blue {
+    color: rgb(56, 106, 152);
+}
+
+.TableList table tr td a.Yellow {
+    color: rgb(254, 202, 5);
+}
+
+.TableList table tr td a.Pink {
+    color: rgb(253, 84, 109);
+}
+
+.TableList table tr td span.Green {
+    background-color: rgb(55, 167, 19);
+}
+
+.TableList table tr td span.Blue {
+    background-color: rgb(19, 155, 191);
+}
+
+.TableList table tr td span.Red {
+    background-color: rgb(187, 15, 15);
+}
+
+.TableList table tr td span.Orange {
+    background-color: rgb(223, 153, 25);
+}
+
+.TableList table tr td span.Yellow {
+    background-color: rgb(231, 163, 61);
+}
+
+.TableList table tr td .Actions button {
+    padding: 7px 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    font-weight: 600;
+    margin: 0px 3px;
+}
+
+.TableList table tr td .Actions button.Gray {
+    background-color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+}
+
+.TableList table tr td .Actions button.Green {
+    background-color: rgb(55, 167, 19);
+}
+
+.TableList table tr td .Actions button.Blue {
+    background-color: rgb(19, 155, 191);
+}
+
+.TableList table tr td .Actions button.Red {
+    background-color: rgb(187, 15, 15);
+}
+
+.TableList table tr td .Actions button.Orange {
+    background-color: rgb(223, 153, 25);
+}
+
+.addmore {
+    margin-top: 40px;
+}
+
+.CommonTabs {
+    margin: 0px 0px 20px;
+}
+
+.CommonTabs .nav-tabs {
+    border: none;
+}
+
+.CommonTabs .nav-tabs .nav-item {
+    margin: 0px 10px 0px 0px;
+}
+
+.CommonTabs .nav-tabs .nav-item .nav-link {
+    margin: 0px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.CommonTabs .nav-tabs .nav-item .nav-link.active {
+    background: rgb(0, 87, 183);
+    color: white;
+}
+
+.DashboardArea .DashboardBox {
+    border-radius: 10px;
+    margin: 0px 0px 25px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    min-height: 160px;
+}
+
+.DashboardArea .DashboardBox::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: -25px;
+    right: -25px;
+    border-radius: 50%;
+}
+
+.DashboardArea .DashboardBox::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: -25px;
+    left: -25px;
+    border-radius: 50%;
+}
+
+.DashboardArea .DashboardBox aside {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.DashboardArea .DashboardBox aside span {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.DashboardArea .DashboardBox article {
+    text-align: right;
+}
+
+.DashboardArea .DashboardBox article p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 0px 0px 6px;
+}
+
+.DashboardArea .DashboardBox article h5 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.DashboardBox.Dashboard1 {
+    background-color: rgb(189, 162, 133);
+}
+
+.DashboardBox.Dashboard1 aside span {
+    color: rgb(189, 162, 133);
+}
+
+.DashboardBox.Dashboard2 {
+    background-color: rgb(11, 167, 131);
+}
+
+.DashboardBox.Dashboard2 aside span {
+    color: rgb(0, 202, 169);
+}
+
+.DashboardBox.Dashboard3 {
+    background-color: rgb(1, 107, 181);
+}
+
+.DashboardBox.Dashboard3 aside span {
+    color: rgb(1, 107, 181);
+}
+
+.DashboardBox.Dashboard4 {
+    background-color: rgb(75, 200, 233);
+}
+
+.DashboardBox.Dashboard4 aside span {
+    color: rgb(3, 164, 207);
+}
+
+.DashboardBox.Dashboard5 {
+    background-color: rgb(225, 125, 67);
+}
+
+.DashboardBox.Dashboard5 aside span {
+    color: rgb(225, 125, 67);
+}
+
+.DashboardBox.Dashboard6 {
+    background-color: rgb(25, 131, 163);
+}
+
+.DashboardBox.Dashboard6 aside span {
+    color: rgb(223, 28, 217);
+}
+
+.DashboardBox.Dashboard7 {
+    background-color: rgb(140, 108, 203);
+}
+
+.DashboardBox.Dashboard7 aside span {
+    color: rgb(140, 108, 203);
+}
+
+.DashboardBox.Dashboard8 {
+    background-color: rgb(26, 181, 174);
+}
+
+.DashboardBox.Dashboard8 aside span {
+    color: rgb(26, 181, 174);
+}
+
+
+
+
+.gfg {
+    height: 50px;
+    width: 50px;
+
+}
+
+.mynav {
+    color: #fff;
+}
+
+.mynav li a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+.mynav li a.active {
+    background: rgba(240, 225, 56, 0.2);
+}
+
+.mynav li a:hover {
+    background: rgba(240, 225, 56, 0.2);
+}
+
+
+.notification-badge {
+    background-color: rgba(255, 255, 255, 0.7);
+    float: right;
+    color: #222;
+    font-size: 14px;
+    padding: 0px 8px;
+    border-radius: 2px;
+}
+
+/* 23/7/2024 */
+.header_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time_span {
+    color: #AB183D;
+    font-weight: 600;
+}
+
+.punch_div {
+    display: flex;
+}
+
+
+.spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #AB183D;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.punch_in_button {
+    background-color: #008000 !important;
+}
+
+.button_sub_div {
+    display: flex;
+    gap: 20px;
+}
+
+.home_login_btn:disabled {
+    background-color: #6c757d !important;
+    cursor: not-allowed;
+}
+
+/* 26/07/2024 */
+.button_width {
+    width: 20% !important;
+}

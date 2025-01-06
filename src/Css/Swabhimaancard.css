@@ -1,0 +1,40 @@
+.Swdiv1 {
+    height: 50vh;
+    width: 100%;
+}
+
+.Sw {
+    padding-top: 8rem;
+    text-align: center;
+    font-family: poppins;
+    color: rgb(24, 91, 5);
+    letter-spacing: .5px;
+}
+
+.sw-card1 {
+    max-width: 90%;
+    animation-name: swanimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.sw-card1 img {
+    filter: drop-shadow(2px 3px 6px rgb(0, 0, 0));
+}
+
+@keyframes swanimate {
+    to {
+        transform: translate(0, 10px);
+    }
+
+    from {
+        transform: translate(10px, 0);
+    }
+}
+
+.bg-slate{
+    background-color: rgba(232, 236, 238, 1);
+    color: black !important;
+}
